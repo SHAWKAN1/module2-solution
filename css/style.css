@@ -1,0 +1,121 @@
+*{
+  width: 100%;
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+h1{
+text-align: center;
+}
+section{
+  border: solid 3px black;
+padding: 0;
+  background-color: rgb(168, 168, 168);
+ 
+}
+#view-point{
+  justify-content: center;
+  align-items: center;
+}
+.titel{
+  height: 25px;
+  width: 20%;
+  text-align: center;
+  float: right;
+  border: solid 1px black;
+}
+.left{
+  height: 25px;
+  float: left;
+  width: 80%;
+}
+
+.text{
+  
+  
+  text-align: justify;
+  
+}
+#red{
+  color: white;
+  background-color: #E0144C;
+}
+
+#yellow{
+  color: black;
+  background-color:#E5EBB2 ;
+}
+#rosy{
+  background-color: #FF8787;
+}
+
+
+@media (min-width:992px){
+#view-point{
+  display: flex;
+  flex-wrap: wrap;
+}
+section{
+max-width: 400px;
+
+} 
+#view-point section {
+  margin: 20px 30px;
+}
+h1{
+  margin-top: 40px;
+}
+.text{
+  padding: 40px 10px 15px 10px;
+}
+
+}
+@media (max-width:767px){
+ 
+  section{
+    width: 90%;
+    margin: 20px 5%; 
+    padding:0;
+    
+  }
+  #view-point{
+    width: 100%;
+}
+
+.text{
+  padding: 35px 7px 10px 7px;
+}
+
+.titel{
+
+  width: 15%;
+
+}
+.left{
+  width: 85%;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+  #view-point{                                                    
+    display: flex;
+    flex-wrap: wrap;
+  }
+  section{
+    
+    margin: 0;
+    width: 91%;
+    box-sizing: border-box;
+     
+  }
+
+  .ipad{
+    width:44.5%;
+    margin: 20px 1%;
+  
+  }
+
+  .text{
+    padding: 40px 10px 15px 10px;
+  }
+  
+}
